@@ -7,13 +7,15 @@ import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { AuthGuard } from './auth.guard';
 import { SampleComponent } from './sample/sample.component';
+import { GoodComponent } from './good/good.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     MainComponent,
-    SampleComponent
+    SampleComponent,
+    GoodComponent
   ],
   imports: [
     BrowserModule,
